@@ -9,7 +9,6 @@ from rest_framework.views import APIView
 from django.http import JsonResponse
 from rest_framework.parsers import JSONParser
 from rest_framework.authentication import SessionAuthentication, TokenAuthentication
-
 from rest_framework.authtoken.models import Token
 
 
